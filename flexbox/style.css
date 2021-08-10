@@ -1,0 +1,21 @@
+.display_flex  {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    /*flex-direction: row; "de izquierda a derecha"*/ 
+    /*flex-direction: row-reverse; "de derecha a izquierda"*/
+    /*flex-direction: column; "de arriba hacia abajo"*/
+    /*flex-direction: column-reverse; "de abajo hacia arriba"*/
+    /*flex-wrap: wrap;"empuja los elementos hacia abajo cuando no caben en el width"*/
+    /*justify-content: "sirve para alinear elementos entre ellos y el espacio disponible"*/
+    align-items: flex-start;/*Eje Y (secundario)*/ 
+    justify-content: flex-end;/*Eje X (principal)*/
+}
+
+.bg_red {
+    background-color: red;
+}
+
+.bg_green {
+    background-color: green;
+}

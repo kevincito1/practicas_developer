@@ -1,0 +1,60 @@
+button {
+    background-color: #00d1b2;
+    border: 0;
+    color: #fff;
+    padding:5px 10px 5px 10px;
+    border-radius:5px;
+    font-size: 20px;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.light {
+    background-color: rgba(235, 225, 225, 0.918);
+    color: #000;
+}
+
+.dark {
+    background-color: rgb(92, 91, 91);
+}
+
+.black {
+    background-color: rgb(0,0,0);
+}
+
+.text {
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.primary {
+    background-color: #00d1b2;
+}
+
+.link {
+    background-color: rgb(14, 80, 204);
+}
+
+.info {
+    background-color: rgb(88, 88, 228);
+}
+
+.succes {
+    background-color: rgb(70, 165, 70);
+}
+
+.warning {
+    background-color: rgb(241, 241, 87);
+    color: #000;
+}
+
+.danger {
+    background-color: rgb(240, 66, 66);
+}
+
+.space_top {
+    margin-top: 10px;
+}

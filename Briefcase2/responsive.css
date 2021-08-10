@@ -1,0 +1,76 @@
+@media screen and (max-width: 375px){
+.menu {
+    display: none;    
+}
+
+.header-main-content {
+    display: block;
+}
+
+.title, .image-main-content {
+    display: block;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.main-projects {
+    display: block;
+    margin: auto;    
+}
+
+.projects {
+    display: block;
+    text-align: center;
+    border-top: 1px solid #4550E6;
+    border-left: none;
+    padding-top: 2rem;
+}
+
+.logo-form {
+    display: none;
+}
+
+.contact-form {
+    display: block;
+    justify-content: center;
+    border-top: 1px solid #4550E6;
+}
+
+}
+
+@media (min-width:376px) and (max-width: 720px){
+    .name-page {
+        margin-left: 1%;
+    }
+
+    .col-3-responsive {
+        width: 25%;
+    }
+
+    .col-9-responsive {
+        width: 75%;
+        margin-right: -10%;
+    }
+
+    ul li {
+        margin: 1%;
+    }
+
+    .main-projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        display: inline-block;
+    }
+
+    .projects, .border {
+        border-right: 1px solid #4550E6 ;
+    }
+    .col-6-responsive {
+        width: 50%;
+    }
+}

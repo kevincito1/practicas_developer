@@ -1,0 +1,21 @@
+#about-me {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+a[title] {
+    color: greenyellow;
+}
+
+.world {
+    color: red;
+}
+
+#hello{
+    color: green;
+}
+
+h1 {
+    color: black;
+}

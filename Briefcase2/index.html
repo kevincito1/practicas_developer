@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./grid.css" />
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ec697a4c89.js" crossorigin="anonymous"></script>
+    <title>Portafolio Kevin Rodas Cuartas</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="name-page col-4 col-3-responsive">Kevin Developer</div>
+        <div class="menu col-8 col-9-responsive">
+          <ul>
+            <li>Home</li>
+            <li>About me</li>
+            <li>Projects</li>
+            <li>Contact</li>
+            <li>Websites</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-main-content">
+        <div class="col-6 col-12 title">
+          <h1>Kevin Developer</h1>
+          <p>
+            Estudiante de desarrollo web en herramientas tales como
+            HTML<span>:5</span>, CSS<span>3</span>
+            y Javascript.
+            <br />
+            Hagamos realidad tus sueños.
+          </p>
+          <button>Registrate</button>
+          <button>Información</button>
+        </div>
+        <div class="col-6 col-12 image-main-content">
+          <img
+            src="https://biitez.dev/home/authenty/assets/images/promo-figure-alt.svg"
+            alt="Desarrollando"
+            class="developer-image"
+          />
+        </div>
+      </div>
+    </header>
+    <br />
+    <section class="main-projects">
+      <div class="projects col-3 col-6-responsive col-12">
+        <a href="https://codepen.io/Kevincito123/pen/KKpbamb" target="_blanck"
+          ><h2>Encuesta</h2></a
+        >
+        <img
+          src="data:image/png;base64,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"
+          alt="Imagen encuesta"
+        />
+        <p>
+          Diseño de paginas para obtener información de clientes potenciales.
+        </p>
+      </div>
+      <div class="projects col-3 col-6-responsive col-12 border">
+        <a href="https://codepen.io/Kevincito123/pen/QWbYNoq" target="_blanck"
+          ><h2>Calculadora</h2></a
+        >
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UcxiyeRJAHXnpd8Y-YtnCf3orbFGj6JeAA&usqp=CAU"
+          alt="Imagen Calculadora"
+        />
+        <p>Programas que facilitan tus labores, automatizando procesos</p>
+      </div>
+      <div class="projects col-3 col-6-responsive col-12">
+        <a href="https://codepen.io/Kevincito123/pen/ZEbzVYL" target="_blanck"
+          ><h2>Reloj CSS</h2></a
+        >
+        <img
+          src="data:image/png;base64,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"
+          alt="Imagen Reloj"
+        />
+        <p>Estilos adaptativos y cambiantes, según tu necesidad</p>
+      </div>
+      <div class="projects col-3 col-6-responsive col-12 border">
+        <a href="https://codepen.io/Kevincito123/pen/vYOPdKV" target="_blanck"
+          ><h2>Primer diseño web</h2></a
+        >
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaTqLMfrA5EUsTq1wPJKLVVQiUOYlLjDPBA&usqp=CAU"
+          alt="Imagen pagina web"
+        />
+        <p>Paginas interactivas, llenas de diseño, estilo y color</p>
+      </div>
+    </section>
+    <section class="contact-me">
+        <div class="contact-form col-6 col-12">
+            <form action="#">
+                <div>
+                    <label for="name">Nombre
+                        <input type="text" id="name" name="name" placeholder="Nombre">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="lastname">Apellido
+                        <input type="text" id="lastname" name="lastname" placeholder="Apellido">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail
+                        <input type="email" name="email" placeholder="E-mail">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">Numeró de contacto
+                        <input type="number" name="telefono" placeholder="Numeró de contacto">
+                    </label>
+                </div>
+                <br>
+                    <div>
+                        <label for="countries"> País
+                            <select name="countries" id="countries">
+                                <option value=""disabled selected>Selecciona</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Costa Rica">Costa Rica</option>
+                                <option value="Cuba">Cuba</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="El Salvador">El Salvador</option>
+                                <option value="Guatemala">Guatemala</option>
+                                <option value="Honduras">Honduras</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Nicaragua">Nicaragua</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Puerto Rico">Puerto Rico</option>
+                                <option value="Republica Dominicana">Republica Dominicana</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Venezuela">Venezuela</option>
+                            </select>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="why"> Dinos, en que podemos ayudarte? 
+                            <br>
+                            <textarea name="description" cols="30" rows="10" placeholder="Cuentanos aqui" maxlength="500"></textarea>
+                        </label>
+                    </div>
+                    <button>Enviar</button>
+                </div>
+                <div class="col-6 logo-form">
+                    <img src="data:image/png;base64,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" alt="logo formulario">
+                </div>
+    </section>
+    <footer>
+      <h2 class="website-title">WEBSITES</h2>
+      <div class="links-webs">
+        <div class="webs col-4">
+          <a href="https://www.facebook.com/kevin.r.cuartas/" target="_blanck"><i class="fab fa-facebook"></i></a>
+      </div>
+      <div class="webs col-4">
+      <a href="https://www.instagram.com/cuartask/?hl=es-la" target="_blanck"><i class="fab fa-instagram"></i></a>
+      </div>
+        <div class="webs col-4">
+          <a href="https://twitter.com/kevinrodascuart" target="_blanck"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

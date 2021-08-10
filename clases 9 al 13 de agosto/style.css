@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first, .second {
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.first {
+    background-color: blue;
+}
+
+.second{
+    background-color: red;
+    top: -150px;
+}

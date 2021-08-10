@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 40px;
+}
+
+span {
+    margin: 10px;
+}
+
+section {
+    border: 1px solid rgb(209, 200, 200);
+    border-radius: 5%;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1, h3 {
+    margin: 20px;
+}
+
+div {
+    margin: 20px;
+}
+
+a {
+    margin: 20px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.subtitle {
+    font-weight: 300;
+    color: rgb(209, 200, 200);
+}
+
+.text {
+    width: 250px;
+}

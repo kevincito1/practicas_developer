@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+button {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10%;
+    font-size: 1rem;
+    background-color: #4550E6;
+    color: white;
+}
+
+.main-projects {
+    display: flex;
+    text-align: center;
+}
+
+.main-projects p {
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #4550E6;
+}
+
+.projects {
+    border-left: #4550E6 1px solid;
+}
+
+.projects img {
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.webs {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 10rem;
+    height: 10rem;
+}
+

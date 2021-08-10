@@ -1,0 +1,89 @@
+nav {
+    background-color: black;
+    min-height: 60px;
+}
+
+nav .brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+nav li {
+    display: inline-block;   
+}
+
+nav li a {
+    padding: 10px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+
+h2 {
+    font-weight: 200;
+}
+
+.content-center-container {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-mzg3EgfLZzqARp8TLOJ2Rtbdusfa4sXF6bT8d4xO8sjqN7X9yiO7-VEqUuSQ-4Yy-4&usqp=CAU);    
+}
+
+.content-center-text {
+    margin: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+.content-center-text h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.content-center-text h1 {
+    margin: 50px;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+.principal-content {
+    display: flex;
+}
+
+.photo-developer {
+    display: inline-block;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.title-description {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10%;
+}
+
+.description-developer {
+    display: inline-block;
+    width: 50%;
+}
+
+.description-developer p {
+    font-size: 15px;
+    line-height: 1.6;
+    word-spacing: 1px;
+    font-weight: lighter;
+    margin: 15px;
+}
+
+p span {
+    font-weight: 700;
+}
