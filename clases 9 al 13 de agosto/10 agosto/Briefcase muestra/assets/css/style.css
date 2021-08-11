@@ -56,18 +56,12 @@ h2 {
 
 .principal-content {
     display: flex;
-    margin: 5%;
 }
 
 .photo-developer {
     display: inline-block;
     width: 50%;
     margin-top: 5%;
-}
-
-.photo {
-    display: inline-block;
-    width: 90%;
 }
 
 .title-description {
