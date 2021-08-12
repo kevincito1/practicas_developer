@@ -8,3 +8,5 @@ function scrollHeaderTop(){
 
 header.addEventListener("click", scrollHeaderTop);
 document.addEventListener("scroll", scrollHeaderTop);
+
+// document.onscroll = scrollHeaderTop;
