@@ -19,20 +19,23 @@
     <title>Portafolio Kevin Rodas Cuartas</title>
   </head>
   <body>
-    <header id="header-main">
+    <header>
       <nav>
         <div class="name-page col-4 col-3-responsive">Kevin Developer</div>
-        <div class="menu col-8 col-9-responsive">
+        <div class="menu col-8 col-9-responsive" id="header-main">
           <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Projects</li>
-            <li>Contact</li>
-            <li>Websites</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#websites">Websites</a></li>
           </ul>
         </div>
+        <div class="home-button">
+        <button class="button-top"><a href="#header-main">Home</a></button>
+        </div>
       </nav>
-      <div class="header-main-content">
+      <div class="header-main-content" id="about-me">
         <div class="col-6 col-12 title">
           <h1>Kevin Developer</h1>
           <p>
@@ -55,7 +58,7 @@
       </div>
     </header>
     <br />
-    <section class="main-projects">
+    <section class="main-projects" id="projects">
       <div class="projects col-3 col-6-responsive col-12">
         <a href="https://codepen.io/Kevincito123/pen/KKpbamb" target="_blanck"
           ><h2>Encuesta</h2></a
@@ -99,7 +102,7 @@
         <p>Paginas interactivas, llenas de diseño, estilo y color</p>
       </div>
     </section>
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
         <div class="contact-form col-6 col-12">
             <form action="#">
                 <div>
@@ -168,7 +171,7 @@
     </section>
     <footer>
       <h2 class="website-title">WEBSITES</h2>
-      <div class="links-webs">
+      <div class="links-webs" id="websites">
         <div class="webs col-4">
           <a href="https://www.facebook.com/kevin.r.cuartas/" target="_blanck"><i class="fab fa-facebook"></i></a>
       </div>
